@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+@media (max-width: 421px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 269px) {
+  html {
+    font-size: 47.5%;
+  }
+}
+
+/*# sourceMappingURL=global.css.map */

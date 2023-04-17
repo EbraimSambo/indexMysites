@@ -1,0 +1,17 @@
+@use '../functions/function'
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    text-decoration: none
+    list-style-type: none
+    border: none
+
+html
+    font-size: 62.5%
+    @include function.resposivebile(991px)
+        font-size: 55.5%
+    @include function.resposivebile(421px)
+        font-size: 50%
+    @include function.resposivebile(269px)
+        font-size: 47.5%
