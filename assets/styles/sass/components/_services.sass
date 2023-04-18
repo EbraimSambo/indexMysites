@@ -10,10 +10,10 @@
         display: grid
         align-items: center
         justify-content: center
-        grid-template-columns: repeat(3, minmax(0,1fr))
+        grid-template-columns: repeat(3,1fr)
         @include function.resposivebile(789px)
             grid-template-columns: repeat(1, minmax(0,1fr))
-        gap: 2rem
+        gap: 3rem
         .box
             padding: 2rem
             background: #8a57b6
@@ -23,12 +23,27 @@
                 transform: scale(1.1)
                 transition: none
             i,h2,p
-                color: #fff
+                color: #fff 
             .contd
                 display: flex
                 gap: .5rem
                 align-items: center
                 i
                     font-size: 4rem
+            p
+                font-size: 1.3rem
+    .description
+        max-width: 820px
+        width: 100%
+        margin: 2rem auto
+        p
+            font-size: 1.4rem
+            font-weight: 600
+            color: #666
+        h2
+            color: #8a57b6
+            font-size: 4rem
+        
+
            
 
