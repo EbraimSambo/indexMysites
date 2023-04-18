@@ -72,6 +72,7 @@ p {
   color: #fff;
   border: 0.1rem solid #fff;
   padding: 0 0.8rem;
+  height: 32px;
   display: none;
 }
 @media (max-width: 889px) {
