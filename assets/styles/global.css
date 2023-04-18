@@ -137,7 +137,7 @@ p {
 @media (max-width: 889px) {
   .header .navbar {
     position: absolute;
-    top: 102%;
+    top: 100%;
     left: 0;
     right: 0;
     flex-direction: column;
@@ -145,6 +145,10 @@ p {
     background: #8a57b6;
     padding: 2rem;
     transform: translateX(123%);
+    transition: transform 0.6s ease;
+  }
+  .header .navbar.active {
+    transform: translateX(0);
   }
 }
 .header .navbar ul {
