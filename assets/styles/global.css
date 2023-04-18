@@ -167,6 +167,12 @@ p {
   font-weight: 400;
   color: #fff;
 }
+@media (max-width: 889px) {
+  .header .navbar ul a {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
 
 .logo {
   font-size: 1.7rem;
