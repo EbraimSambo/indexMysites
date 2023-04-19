@@ -1,0 +1,31 @@
+@use '../functions/mixins'
+@use '../functions/function'
+
+.info
+    transform: translateY(-79px)
+    @include function.resposivebile(789px)
+        transform: translateY(0)
+    .container
+        display: grid 
+        margin: 0 auto
+        width: 100%
+        gap: 3rem
+        max-width: 1024px
+        grid-template-columns: 3fr 2fr
+        @include function.resposivebile(789px)
+            grid-template-columns: 100%
+            gap: 0
+
+        .content
+            padding: 2rem
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+
+            p
+                font-size: 1.4rem
+                font-weight: 600
+                color: #666
+
+
