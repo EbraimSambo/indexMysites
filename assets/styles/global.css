@@ -185,6 +185,7 @@ p {
   height: 70vh;
   background-position: 0px 0px, right 3em bottom 0;
   background-size: cover;
+  clip-path: polygon(15.4% 0%, 100% 0%, 100% 14.3%, 100% 89.9%, 70.1% 99.3%, 69.6% 99.3%, 0% 83.8%, 0% 0%);
 }
 @media (max-width: 991px) {
   .start {
@@ -194,6 +195,12 @@ p {
 
 .services {
   padding: 2rem 7%;
+  transform: translateY(-79px);
+}
+@media (max-width: 649px) {
+  .services {
+    transform: translateY(0);
+  }
 }
 .services .container {
   margin: 0 auto;
