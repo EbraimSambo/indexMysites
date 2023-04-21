@@ -246,6 +246,11 @@ p {
   font-size: 4.5rem;
   line-height: 1.2;
 }
+@media (max-width: 789px) {
+  .start .content h2 {
+    font-size: 3.4rem;
+  }
+}
 .start .content h2 span {
   font-size: 2.7rem !important;
 }
