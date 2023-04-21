@@ -5,6 +5,7 @@
     font-size: 1.7rem
 
 .start
+    position: relative
     background: url(https://img.freepik.com/fotos-gratis/mulher-jovem-com-camisa-e-colete-no-fundo-roxo-se-divertindo-com-uma-lupa-na-mao_343596-7736.jpg?size=626&ext=jpg&ga=GA1.1.1665606161.1681751605&semt=sph) no-repeat
     height: 70vh
     background-position: 0px 0px, right 3em bottom 0
@@ -14,4 +15,29 @@
        background-position: center center
     @include function.resposivebile(567px)
        height: 100vh
+       display: flex
+       align-items: flex-end
        clip-path: polygon(15.7% 0%, 100% 0%, 100% 15%, 100% 100%, 84.8% 100%, 15% 100%, 0% 100%, 0% 0%)
+    .content
+        position: absolute
+        max-width: 440px
+        width: 100%
+        top: 30%
+        left: 3%
+        @include function.resposivebile(993px)
+            left: 2%
+            top: 35%
+            max-width: 400px
+        @include function.resposivebile(882px)
+            top: 52%
+            padding: 1rem
+            background: #00000086
+        @include function.resposivebile(567px)
+            position: static
+        h2
+            font-size: 4.5rem
+            line-height: 1.2
+            span
+                font-size: 2.7rem !important
+        p,h2
+            color: #fff !important
