@@ -1,0 +1,17 @@
+@use '../functions/mixins'
+@use '../functions/function'
+
+.mysites
+    padding: 4rem 2rem
+    .container
+        display: grid
+        grid-template-columns: repeat(5,0.96fr)
+        gap: 1.5rem
+        @include function.resposivebile(1003px)
+            grid-template-columns: repeat(4,0.97fr)
+        .card
+            background: #111
+        
+
+           
+

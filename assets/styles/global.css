@@ -356,4 +356,21 @@ p {
   color: #666;
 }
 
+.mysites {
+  padding: 4rem 2rem;
+}
+.mysites .container {
+  display: grid;
+  grid-template-columns: repeat(5, 0.96fr);
+  gap: 1.5rem;
+}
+@media (max-width: 1003px) {
+  .mysites .container {
+    grid-template-columns: repeat(4, 0.97fr);
+  }
+}
+.mysites .container .card {
+  background: #111;
+}
+
 /*# sourceMappingURL=global.css.map */
